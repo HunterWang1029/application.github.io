@@ -1,0 +1,28 @@
+.frame{
+    display:flex;
+    justify-content: center;
+}
+.photoframe{
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    flex:auto;
+}
+.image{
+    flex:none;
+    width:200px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.photo-container{
+
+}
+
+@media (max-width:570px){
+    .image{
+        width:90px;
+        height:102px;
+        padding: 5px;
+    }
+}
